@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		225716E72E7F283400F47EE8 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		225716E72E7F283400F47EE8 /* PCU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		225716F42E7F283600F47EE8 /* ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225716FE2E7F283600F47EE8 /* ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		225716E82E7F283400F47EE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				225716E72E7F283400F47EE8 /* Project.app */,
+				225716E72E7F283400F47EE8 /* PCU.app */,
 				225716F42E7F283600F47EE8 /* ProjectTests.xctest */,
 				225716FE2E7F283600F47EE8 /* ProjectUITests.xctest */,
 			);
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		225716E62E7F283400F47EE8 /* Project */ = {
+		225716E62E7F283400F47EE8 /* PCU */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 225717082E7F283600F47EE8 /* Build configuration list for PBXNativeTarget "Project" */;
+			buildConfigurationList = 225717082E7F283600F47EE8 /* Build configuration list for PBXNativeTarget "PCU" */;
 			buildPhases = (
 				225716E32E7F283400F47EE8 /* Sources */,
 				225716E42E7F283400F47EE8 /* Frameworks */,
@@ -110,11 +110,11 @@
 			fileSystemSynchronizedGroups = (
 				225716E92E7F283400F47EE8 /* Project */,
 			);
-			name = Project;
+			name = PCU;
 			packageProductDependencies = (
 			);
 			productName = Project;
-			productReference = 225716E72E7F283400F47EE8 /* Project.app */;
+			productReference = 225716E72E7F283400F47EE8 /* PCU.app */;
 			productType = "com.apple.product-type.application";
 		};
 		225716F32E7F283600F47EE8 /* ProjectTests */ = {
@@ -200,7 +200,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				225716E62E7F283400F47EE8 /* Project */,
+				225716E62E7F283400F47EE8 /* PCU */,
 				225716F32E7F283600F47EE8 /* ProjectTests */,
 				225716FD2E7F283600F47EE8 /* ProjectUITests */,
 			);
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		225716F62E7F283600F47EE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 225716E62E7F283400F47EE8 /* Project */;
+			target = 225716E62E7F283400F47EE8 /* PCU */;
 			targetProxy = 225716F52E7F283600F47EE8 /* PBXContainerItemProxy */;
 		};
 		225717002E7F283600F47EE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 225716E62E7F283400F47EE8 /* Project */;
+			target = 225716E62E7F283400F47EE8 /* PCU */;
 			targetProxy = 225716FF2E7F283600F47EE8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 928PN22FG7;
@@ -412,6 +413,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mehul.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -427,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 928PN22FG7;
@@ -444,6 +447,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mehul.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -550,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		225717082E7F283600F47EE8 /* Build configuration list for PBXNativeTarget "Project" */ = {
+		225717082E7F283600F47EE8 /* Build configuration list for PBXNativeTarget "PCU" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				225717092E7F283600F47EE8 /* Debug */,
